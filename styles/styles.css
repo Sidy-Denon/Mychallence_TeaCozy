@@ -1,0 +1,158 @@
+body {
+    position: relative;
+    background-color: rgba(0, 0, 0 );
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+    z-index:2;
+}
+
+/************************************ Header ************************/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+   border-bottom:1px solid seashell  ;
+   height: 69px;
+   background-color: black;
+   position: sticky;
+   top: 0px;
+   z-index: 10;
+
+}
+
+img {
+    padding-left: 10px  ;
+    height: 50px;
+}
+
+.breadcrumbs {
+    font-family: helvetica;
+}
+
+ul li {
+    display: inline-flex;
+    padding: 10px; 
+}
+
+li a {
+    color : white;
+
+}
+
+ul li :hover {
+    text-decoration: none;
+}
+
+/***************************************** body **********************************************************/
+
+.mission {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin: auto 40px;
+}
+
+.mission, .trans {
+    position: relative;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    text-align: center;
+
+}
+.trans {
+    top:350px;
+    
+} 
+
+.trans h2,h4 {
+    padding: 1%;
+
+}
+
+/***************************************** Tea img **********************************************************/
+
+.month {
+    align-items: center;
+}
+.month .Tea {
+    color: white;
+    position: relative;
+    text-align: center;    
+    margin-top: 30px;
+    line-height: 10px;
+}
+
+ 
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin: auto 40px;
+    color: white;
+    
+}
+
+img:hover {
+    border-radius: 20px;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.img img{
+    margin: auto 15px;
+    width: 300px;
+    height: 200px;
+
+}
+.img p {
+    font-weight: bold;
+    text-align: center;
+}
+
+/***************************************** Locations **********************************************************/
+.locations {
+    background-image: url(img/locations-background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    height: 500px;
+    margin: auto 40px;
+
+    
+ }
+
+.locations div {
+
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.852);
+    margin: 10px ;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    line-height: 150%;
+    opacity: 1px ;
+     
+}
+
+.locations :hover {
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+    background-color: black;
+    box-shadow: 2px 1px ;
+
+
+}
+
+/***************************************** footers **********************************************************/
+ 
+ .footer {
+    text-align: center;
+    height: 200px;
+ }
